@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="原始程式檔">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="資源檔\main">
+      <UniqueIdentifier>{d2c96491-2e74-4179-ac62-c6dfc9b0c987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="資源檔\Test">
+      <UniqueIdentifier>{dc205bb2-743e-48ef-8cde-0fa1dec23b79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\Test">
+      <UniqueIdentifier>{46ff4fa7-bfd0-489d-bdd9-4691d063a677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="資源檔\base_image_processing">
+      <UniqueIdentifier>{843d649b-809c-4895-b8fc-cc8c02597b88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="資源檔\base_image_processing\file_operation">
+      <UniqueIdentifier>{2730e6ab-b11d-4c04-be0b-2478c4333d25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="資源檔\side_window_filtering">
+      <UniqueIdentifier>{0c6f1cbb-53cf-49dd-b6c2-9172b461e663}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="資源檔\side_window_filtering\Linear_base">
+      <UniqueIdentifier>{665eb14e-a7bf-4f3a-addf-dd224bb37f93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="資源檔\side_window_filtering\Nonlinear_base">
+      <UniqueIdentifier>{36c069b6-c9c5-4eb1-8e07-0997ab4923ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\side_window_filtering">
+      <UniqueIdentifier>{e8277b33-d467-4727-93ce-9d9f2a3774c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\side_window_filtering\Linear_base">
+      <UniqueIdentifier>{f6cc24c8-f630-4acb-8909-a8a8771e3762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\side_window_filtering\my_structure">
+      <UniqueIdentifier>{0f85c8a4-00c0-4cf6-847a-21c9af90cfd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\main">
+      <UniqueIdentifier>{60b7908b-fd23-4f30-9c0a-4d950fd6446d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\basic_image_processing">
+      <UniqueIdentifier>{240bfeaa-d94e-4f86-8598-52a06792202a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\basic_image_processing\file_operation">
+      <UniqueIdentifier>{f573a2fb-7f87-4b0d-b559-2945a5844a2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\side_window_filtering\Nonlinear_base">
+      <UniqueIdentifier>{6e238faa-98d1-437e-826d-d8d792d5c467}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="資源檔\my_structure">
+      <UniqueIdentifier>{1366238a-b563-444f-acfd-202ebb167a52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="資源檔\tranditional_filtering">
+      <UniqueIdentifier>{23588ace-a8f2-47da-a67e-bc5a4dcf0a28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="資源檔\base_image_processing\image_operation">
+      <UniqueIdentifier>{ebf1411e-40b4-4d02-ba9d-5d9ab654e1f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\basic_image_processing\image_operation">
+      <UniqueIdentifier>{85bfca83-1f89-4403-aadb-e1901f270f6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\tranditional_filtering">
+      <UniqueIdentifier>{93c83315-da21-42ec-812c-463873c219c6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>資源檔\main</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCV_Setting.cpp">
+      <Filter>資源檔\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="image_IO_by_OpenCV.cpp">
+      <Filter>資源檔\base_image_processing\file_operation</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>資源檔\side_window_filtering\Linear_base</Filter>
+    </ClCompile>
+    <ClCompile Include="filter.cpp">
+      <Filter>資源檔\my_structure</Filter>
+    </ClCompile>
+    <ClCompile Include="tranditional_median_filter.cpp">
+      <Filter>資源檔\tranditional_filtering</Filter>
+    </ClCompile>
+    <ClCompile Include="image_operate.cpp">
+      <Filter>資源檔\base_image_processing\image_operation</Filter>
+    </ClCompile>
+    <ClCompile Include="Gaussian.cpp">
+      <Filter>資源檔\side_window_filtering\Linear_base</Filter>
+    </ClCompile>
+    <ClCompile Include="Bilateral.cpp">
+      <Filter>資源檔\side_window_filtering\Nonlinear_base</Filter>
+    </ClCompile>
+    <ClCompile Include="Guided.cpp">
+      <Filter>資源檔\side_window_filtering\Nonlinear_base</Filter>
+    </ClCompile>
+    <ClCompile Include="csv_IO.cpp">
+      <Filter>資源檔\base_image_processing\file_operation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OpenCV_Setting.h">
+      <Filter>標頭檔\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="image_IO_by_OpenCV.h">
+      <Filter>標頭檔\basic_image_processing\file_operation</Filter>
+    </ClInclude>
+    <ClInclude Include="filter.h">
+      <Filter>標頭檔\side_window_filtering\my_structure</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>標頭檔\side_window_filtering\Linear_base</Filter>
+    </ClInclude>
+    <ClInclude Include="side_window_filtering.h">
+      <Filter>標頭檔\side_window_filtering</Filter>
+    </ClInclude>
+    <ClInclude Include="used_headers.h">
+      <Filter>標頭檔\main</Filter>
+    </ClInclude>
+    <ClInclude Include="basic_image_processing.h">
+      <Filter>標頭檔\basic_image_processing</Filter>
+    </ClInclude>
+    <ClInclude Include="image_operate.h">
+      <Filter>標頭檔\basic_image_processing\image_operation</Filter>
+    </ClInclude>
+    <ClInclude Include="tranditional_median_filter.h">
+      <Filter>標頭檔\tranditional_filtering</Filter>
+    </ClInclude>
+    <ClInclude Include="Gaussian.h">
+      <Filter>標頭檔\side_window_filtering\Linear_base</Filter>
+    </ClInclude>
+    <ClInclude Include="Guided.h">
+      <Filter>標頭檔\side_window_filtering\Nonlinear_base</Filter>
+    </ClInclude>
+    <ClInclude Include="csv_IO.h">
+      <Filter>標頭檔\basic_image_processing\file_operation</Filter>
+    </ClInclude>
+    <ClInclude Include="Bilateral.h">
+      <Filter>標頭檔\side_window_filtering\Nonlinear_base</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

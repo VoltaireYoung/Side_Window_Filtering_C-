@@ -1,0 +1,17 @@
+﻿  tranditional_median_filter.cpp
+c:\users\user\documents\visual studio 2015\projects\side_window_filtering\side_window_filtering\used_headers.h(5): fatal error C1083: 無法開啟包含檔案: 'opencv2/opencv.hpp': No such file or directory
+  OpenCV_Setting.cpp
+c:\users\user\documents\visual studio 2015\projects\side_window_filtering\side_window_filtering\opencv_setting.cpp(5): fatal error C1083: 無法開啟包含檔案: 'opencv2/opencv.hpp': No such file or directory
+  main.cpp
+c:\users\user\documents\visual studio 2015\projects\side_window_filtering\side_window_filtering\used_headers.h(5): fatal error C1083: 無法開啟包含檔案: 'opencv2/opencv.hpp': No such file or directory
+  image_IO_by_OpenCV.cpp
+c:\users\user\documents\visual studio 2015\projects\side_window_filtering\side_window_filtering\used_headers.h(5): fatal error C1083: 無法開啟包含檔案: 'opencv2/opencv.hpp': No such file or directory
+  filter.cpp
+c:\users\user\documents\visual studio 2015\projects\side_window_filtering\side_window_filtering\used_headers.h(5): fatal error C1083: 無法開啟包含檔案: 'opencv2/opencv.hpp': No such file or directory
+  Box.cpp
+c:\users\user\documents\visual studio 2015\projects\side_window_filtering\side_window_filtering\used_headers.h(5): fatal error C1083: 無法開啟包含檔案: 'opencv2/opencv.hpp': No such file or directory
+  image_operate.cpp
+c:\users\user\documents\visual studio 2015\projects\side_window_filtering\side_window_filtering\used_headers.h(5): fatal error C1083: 無法開啟包含檔案: 'opencv2/opencv.hpp': No such file or directory
+  Gaussian.cpp
+c:\users\user\documents\visual studio 2015\projects\side_window_filtering\side_window_filtering\used_headers.h(5): fatal error C1083: 無法開啟包含檔案: 'opencv2/opencv.hpp': No such file or directory
+  正在產生程式碼...
